@@ -7,9 +7,9 @@ import classes from './Header.modules.css';
 const Header = (props) => {
   return (
     <Fragment>
-      <header className={classes.header}>
+      <header className={classes.header} onClick={props.onClick}>
         <h1>RestrauntMeals</h1>
-        <HeaderCartButton />
+        <HeaderCartButton onclick={props.onShowCart} />
       </header>
       <div className={classes['main-image']}> 
         <img src={mealsImage} alt='A table full of delicious food!' />
