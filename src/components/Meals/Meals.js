@@ -8,10 +8,8 @@ import AvailableMeals from './AvailableMeals';
 const Meals = () => {
   return (
     <Fragment>
-        {/* <div> */}
       <MealsSummary />
       <AvailableMeals />
-      {/* </div> */}
     </Fragment>
   );
 };

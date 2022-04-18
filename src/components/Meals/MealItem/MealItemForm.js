@@ -10,7 +10,7 @@ const MealItemForm = (props) => {
   const submitHandler = (event) => {
     event.preventDefault();
 
-    const enteredAmount = amountInputRef.current.value; //It will always point at the imput element which is stored in the ref in the end.
+    const enteredAmount = amountInputRef.current.value;  //It will always point at the imput element which is stored in the ref in the end.
     const enteredAmountNumber = +enteredAmount; //Since the val is String so to cunvert it in num we write as this.
 
     if (
